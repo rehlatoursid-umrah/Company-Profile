@@ -21,7 +21,7 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-          Company Profile <span className="text-Rehlatours.id">Umrah</span> 
+          Company Profile <span className="text-">Rehlatours.id</span> 
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-balance leading-relaxed">
