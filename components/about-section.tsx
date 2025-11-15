@@ -25,8 +25,7 @@ export default function AboutSection() {
             Tentang <span className="text-primary">Rehlatours</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Brand travel halal berpusat di Bandung, Jawa Barat, dengan visi menghadirkan perjalanan ibadah yang amanah,
-            legal, dan nyaman
+            Brand travel halal berpusat di Bandung, Jawa Barat, Didirikan oleh Lulusan Universitas Al-Azhar Mesir, seorang muthowwif berpengalaman, Rehlatours.id hadir bukan hanya sebagai travel umrah, tapi sebagai mitra spiritual yang memahami perjalanan batin Anda.
           </p>
         </div>
 
