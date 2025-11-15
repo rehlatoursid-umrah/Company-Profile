@@ -7,15 +7,14 @@ export default function PackagesSection() {
     {
       id: 1,
       name: "Umrah Reguler",
-      price: "Hubungi kami",
+      price: "23.500.000 (B2B Min 15 Orang)",
       duration: "7 Malam 8 Hari (7N8D)",
       description: "Paket umrah dengan fasilitas standar dan harga terjangkau",
       features: [
         "Tiket pesawat PP & visa Saudi",
-        "Mutawwif/mutawwifah profesional",
-        "Hotel bintang 4",
-        "Transfer bandara & city tour Makkah & Madinah",
-        "Hotel + meals",
+        "Mutawwif / mutawwifah, panduan & manasik online",
+        "Hotel ★★★★ /Setaraf + Meals",
+        "Transfer bandara & city tour Makkah & Madinah"
         "Kain ihram, abaya, tanda pengenal",
         "Asuransi perjalanan",
         "Ziarah lengkap ke tempat-tempat bersejarah",
@@ -24,17 +23,17 @@ export default function PackagesSection() {
     {
       id: 2,
       name: "Umrah Plus Mesir",
-      price: "Hubungi kami",
+      price: "IDR 34.500.000 (B2B Min 15 Orang)",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Umrah dengan perjalanan ke tanah sejarah Islam - Mesir",
       features: [
-        "Tiket pesawat PP (Jakarta – Jeddah – Kairo – Jakarta)",
+        "Tiket pesawat PP (Jakarta – Cairo – Medinah – Jeddah – Jakarta)",
         "Visa Umrah & Visa Mesir",
         "Mutawwif profesional + pemandu wisata",
         "Transfer & city tour Makkah, Madinah & Mesir",
-        "Hotel bintang 4 & meals",
-        "Kunjungan Piramida Giza, Sphinx, Museum Mesir",
-        "Kain Ihram & tanda pengenal",
+        "Hotel ★★★★ /Setaraf + Meals",
+        "Kunjungan Piramida Giza, Sphinx,, Khan Khalili Museum Mesir",
+        "Souvenir Travel & tanda pengenal",
         "Air zamzam 5L per jamaah",
       ],
       isPopular: true,
@@ -42,17 +41,17 @@ export default function PackagesSection() {
     {
       id: 3,
       name: "Umrah Plus Turki",
-      price: "Hubungi kami",
+      price: "33.500.000 (B2B Min 15 Orang)",
       duration: "11 Malam 12 Hari (11N12D)",
-      description: "Perpaduan sempurna antara ibadah suci dan wisata sejarah Islam",
+      description: "Perpaduan sempurna antara ibadah suci dan wisata sejarah Islam Ottoman",
       features: [
-        "Tiket pesawat PP (Jakarta – Jeddah – Istanbul – Jakarta)",
-        "Visa Umrah & e-Visa",
+        "Tiket pesawat PP (Jakarta – Istanbul – Medinah – Jeddah – Jakarta)",
+        "Visa Umrah",
         "Mutawwif profesional + pemandu wisata",
-        "Transportasi darat AC",
-        "Hotel bintang 4 & meals",
-        "City tour Istanbul lengkap",
-        "Kapal Bosporus & tempat-tempat heritage",
+        "Transfer & city tour Makkah, Madinah & Turki",
+        "Hotel ★★★★ /Setaraf + Meals",
+        "City tour Istanbul lengkap"
+        "Souvenir Travel & tanda pengenal"
         "Air Zamzam 5L per jamaah",
       ],
     },
@@ -101,7 +100,7 @@ export default function PackagesSection() {
               </ul>
 
               <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                <a href="https://wa.me/6281397321658" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/+6283197321658" target="_blank" rel="noopener noreferrer">
                   Pesan Sekarang
                 </a>
               </Button>
