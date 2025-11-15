@@ -21,18 +21,18 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-          Company Profile <span className="text-">Rehlatours.id</span> 
+          Company Profile <span className="text-primary">Rehlatours.id</span> 
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-balance leading-relaxed">
-          Rehlatours.id adalah brand travel halal yang berkomitmen menghadirkan perjalanan ibadah umroh yang amanah,
+          Rehlatours.id adalah brand travel B2B dan B2C halal yang berkomitmen menghadirkan perjalanan ibadah umroh yang amanah,
           mudah, dan terpercaya. Bersama tim berpengalaman, kami siap memandu perjalanan suci Anda dengan penuh tanggung
           jawab.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            <a href="https://wa.me/6281397321658" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+62831973216588" target="_blank" rel="noopener noreferrer">
               Konsultasi Gratis via WhatsApp
             </a>
           </Button>
