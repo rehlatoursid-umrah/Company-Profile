@@ -4,40 +4,58 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color scheme for Rehlatours: deep green and gold spiritual theme */
-  --background: oklch(0.36 0.12 20);
-  --foreground: oklch(0.85 0.12 85);
+  /* Rehlatours new color palette (maroon & gold) */
+  --background: oklch(0.98 0 0);
+  --foreground: oklch(0.15 0 0);
   --card: oklch(0.98 0 0);
   --card-foreground: oklch(0.15 0 0);
   --popover: oklch(0.98 0 0);
   --popover-foreground: oklch(0.15 0 0);
-  --primary: oklch(0.45 0.12 20);
+
+  /* PRIMARY: #3a0519 */
+  --primary: oklch(0.29 0.07 357);
   --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.85 0.12 85);
+
+  /* SECONDARY: #f7c566 */
+  --secondary: oklch(0.85 0.15 82);
   --secondary-foreground: oklch(0.15 0 0);
+
   --muted: oklch(0.92 0.02 0);
   --muted-foreground: oklch(0.45 0 0);
-  --accent: oklch(0.57 0.18 46);
+
+  /* Accent mengikuti secondary */
+  --accent: oklch(0.85 0.15 82);
   --accent-foreground: oklch(0.15 0 0);
+
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.92 0 0);
   --input: oklch(0.95 0 0);
-  --ring: oklch(0.35 0.12 162);
-  --chart-1: oklch(0.35 0.12 162);
-  --chart-2: oklch(0.57 0.18 46);
+
+  /* Ring mengikuti primary */
+  --ring: oklch(0.29 0.07 357);
+
+  /* Chart colors update — chart-1 = primary, chart-2 = secondary */
+  --chart-1: oklch(0.29 0.07 357);
+  --chart-2: oklch(0.85 0.15 82);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
+
   --radius: 0.625rem;
+
+  /* Sidebar palette updated */
   --sidebar: oklch(0.98 0 0);
   --sidebar-foreground: oklch(0.15 0 0);
-  --sidebar-primary: oklch(0.35 0.12 162);
+
+  --sidebar-primary: oklch(0.29 0.07 357);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.57 0.18 46);
+
+  --sidebar-accent: oklch(0.85 0.15 82);
   --sidebar-accent-foreground: oklch(0.15 0 0);
+
   --sidebar-border: oklch(0.92 0 0);
-  --sidebar-ring: oklch(0.35 0.12 162);
+  --sidebar-ring: oklch(0.29 0.07 357);
 }
 
 .dark {
@@ -47,32 +65,47 @@
   --card-foreground: oklch(0.95 0 0);
   --popover: oklch(0.15 0 0);
   --popover-foreground: oklch(0.95 0 0);
-  --primary: oklch(0.5 0.14 162);
+
+  /* PRIMARY dark mode */
+  --primary: oklch(0.42 0.07 357);
   --primary-foreground: oklch(0.15 0 0);
-  --secondary: oklch(0.68 0.2 46);
+
+  /* SECONDARY dark mode */
+  --secondary: oklch(0.78 0.15 82);
   --secondary-foreground: oklch(0.15 0 0);
+
   --muted: oklch(0.3 0 0);
   --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.68 0.2 46);
+
+  /* Accent mengikuti secondary */
+  --accent: oklch(0.78 0.15 82);
   --accent-foreground: oklch(0.15 0 0);
+
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.3 0 0);
   --input: oklch(0.25 0 0);
-  --ring: oklch(0.5 0.14 162);
-  --chart-1: oklch(0.5 0.14 162);
-  --chart-2: oklch(0.68 0.2 46);
+
+  /* Ring mengikuti primary */
+  --ring: oklch(0.42 0.07 357);
+
+  --chart-1: oklch(0.42 0.07 357);
+  --chart-2: oklch(0.78 0.15 82);
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
+
   --sidebar: oklch(0.15 0 0);
   --sidebar-foreground: oklch(0.95 0 0);
-  --sidebar-primary: oklch(0.5 0.14 162);
+
+  --sidebar-primary: oklch(0.42 0.07 357);
   --sidebar-primary-foreground: oklch(0.95 0 0);
-  --sidebar-accent: oklch(0.68 0.2 46);
+
+  --sidebar-accent: oklch(0.78 0.15 82);
   --sidebar-accent-foreground: oklch(0.15 0 0);
+
   --sidebar-border: oklch(0.3 0 0);
-  --sidebar-ring: oklch(0.5 0.14 162);
+  --sidebar-ring: oklch(0.42 0.07 357);
 }
 
 @theme inline {
