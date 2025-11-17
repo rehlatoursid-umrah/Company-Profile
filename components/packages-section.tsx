@@ -10,6 +10,7 @@ export default function PackagesSection() {
       price: "23.500.000",
       duration: "7 Malam 8 Hari (7N8D)",
       description: "Paket umrah dengan fasilitas standar dan harga terjangkau",
+      image: "/images/mekkah 1.png", 
       features: [
         "Tiket pesawat PP & visa Saudi",
         "Mutawwif / mutawwifah, panduan & manasik online",
@@ -26,6 +27,7 @@ export default function PackagesSection() {
       price: "IDR 34.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Umrah dengan perjalanan ke tanah sejarah Islam - Mesir",
+      image: "/images/elegant-hotel-cairo.jpg",
       features: [
         "Tiket pesawat PP (Jakarta – Cairo – Medinah – Jeddah – Jakarta)",
         "Visa Umrah & Visa Mesir",
@@ -44,6 +46,7 @@ export default function PackagesSection() {
       price: "33.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Perpaduan sempurna antara ibadah suci dan wisata sejarah Islam Ottoman",
+      image: "/images/turki.jpeg",
       features: [
         "Tiket pesawat PP (Jakarta – Istanbul – Medinah – Jeddah – Jakarta)",
         "Visa Umrah",
@@ -73,37 +76,48 @@ export default function PackagesSection() {
           {packages.map((pkg) => (
             <Card
               key={pkg.id}
-              className={`flex flex-col p-8 transition-all hover:shadow-xl ${
+              className={`flex flex-col p-0 overflow-hidden transition-all hover:shadow-xl ${
                 pkg.isPopular ? "md:scale-105 border-secondary border-2" : ""
               }`}
             >
-              {pkg.isPopular && (
-                <div className="mb-4">
-                  <span className="bg-secondary text-secondary-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                    Paket Populer
-                  </span>
-                </div>
-              )}
+              {/* FOTO CARD */}
+              <div className="w-full h-48 overflow-hidden">
+                <img
+                  src={pkg.image}
+                  alt={pkg.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
-              <h3 className="text-2xl font-bold text-foreground mb-2">{pkg.name}</h3>
-              <p className="text-secondary font-bold text-2xl mb-1">{pkg.price}</p>
-              <p className="text-muted-foreground mb-4 text-sm">{pkg.duration}</p>
-              <p className="text-foreground/80 mb-6">{pkg.description}</p>
+              <div className="p-8 flex flex-col flex-1">
+                {pkg.isPopular && (
+                  <div className="mb-4">
+                    <span className="bg-secondary text-secondary-foreground px-4 py-1 rounded-full text-sm font-semibold">
+                      Paket Populer
+                    </span>
+                  </div>
+                )}
 
-              <ul className="space-y-2 mb-8 flex-grow">
-                {pkg.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
+                <h3 className="text-2xl font-bold text-foreground mb-2">{pkg.name}</h3>
+                <p className="text-secondary font-bold text-2xl mb-1">{pkg.price}</p>
+                <p className="text-muted-foreground mb-4 text-sm">{pkg.duration}</p>
+                <p className="text-foreground/80 mb-6">{pkg.description}</p>
 
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                <a href="https://wa.me/+6283197321658" target="_blank" rel="noopener noreferrer">
-                  Pesan Sekarang
-                </a>
-              </Button>
+                <ul className="space-y-2 mb-8 flex-grow">
+                  {pkg.features.map((feature, idx) => (
+                    <li key={idx} className="flex items-start gap-2">
+                      <Check className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-foreground">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+                  <a href="https://wa.me/+6283197321658" target="_blank" rel="noopener noreferrer">
+                    Pesan Sekarang
+                  </a>
+                </Button>
+              </div>
             </Card>
           ))}
         </div>
