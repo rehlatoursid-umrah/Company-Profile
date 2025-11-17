@@ -10,7 +10,7 @@ export default function PackagesSection() {
       price: "23.500.000",
       duration: "7 Malam 8 Hari (7N8D)",
       description: "Paket umrah dengan fasilitas standar dan harga terjangkau",
-      image: "/mekkah-1.png",
+      image: "/mekkah 1.png",
       features: [
         "Tiket pesawat PP & visa Saudi",
         "Mutawwif / mutawwifah, panduan & manasik online",
