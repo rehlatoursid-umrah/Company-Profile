@@ -5,17 +5,17 @@ export default function TeamSection() {
     {
       name: "Habib Arifin Makhtum",
       role: "Founder & Director",
-      image: "/professional-team-member.jpg",
+      image: "/hbb tanpa bg.png",
     },
     {
       name: "Hannan Nur Muhammad, S.T.",
       role: "Co-Founder & Owner",
-      image: "/professional-team-member.jpg",
+      image: "/hnn tanpa bg.png",
     },
     {
       name: "Ridwan Fauzi, Lc.",
       role: "Tour Leader",
-      image: "/professional-team-member.jpg",
+      image: "/rf.png",
     },
   ]
 
