@@ -50,7 +50,7 @@ export default function PackagesSection() {
         "Mutawwif profesional + pemandu wisata",
         "Transfer & city tour Makkah, Madinah & Turki",
         "Hotel ★★★★ /Setaraf + Meals",
-        "City tour Istanbul lengkap"
+        "City tour Istanbul lengkap",
         "Souvenir Travel & tanda pengenal",
         "Air Zamzam 5L per jamaah",
       ],
