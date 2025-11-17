@@ -14,7 +14,7 @@ export default function PackagesSection() {
         "Tiket pesawat PP & visa Saudi",
         "Mutawwif / mutawwifah, panduan & manasik online",
         "Hotel ★★★★ /Setaraf + Meals",
-        "Transfer bandara & city tour Makkah & Madinah"
+        "Transfer bandara & city tour Makkah & Madinah",
         "Kain ihram, abaya, tanda pengenal",
         "Asuransi perjalanan",
         "Ziarah lengkap ke tempat-tempat bersejarah",
