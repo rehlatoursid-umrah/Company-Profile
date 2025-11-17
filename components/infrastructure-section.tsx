@@ -6,12 +6,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export default function InfrastructureSection() {
   const vehicles = [
-    { type: "Sedan Camry/Setaraf", count: 2, image: "/luxury-sedan.png" },
-    { type: "Hyundai H1/Hiace", count: 4, image: "/minibus-van.jpg" },
-    { type: "Hyundai Staria", count: 2, image: "/premium-van.jpg" },
-    { type: "SUV GMC", count: 4, image: "/luxury-suv.png" },
-    { type: "Toyota Coaster", count: 16, image: "/bus-transport.jpg" },
-    { type: "Big Bus Mercy", count: 45, image: "/large-luxury-bus.jpg" },
+    { type: "Sedan Camry/Setaraf", count: 2, image: "/camrypng" },
+    { type: "Hyundai H1/Hiace", count: 4, image: "/h1.png" },
+    { type: "Hyundai Staria", count: 2, image: "/staria.png" },
+    { type: "SUV GMC", count: 4, image: "/gmc.png" },
+    { type: "Toyota Coaster", count: 16, image: "/Coaster.png" },
+    { type: "Big Bus Mercy", count: 45, image: "/bis_.npg" },
   ]
 
   const hotels = {
