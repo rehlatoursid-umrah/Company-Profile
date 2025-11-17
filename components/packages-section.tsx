@@ -32,7 +32,7 @@ export default function PackagesSection() {
         "Mutawwif profesional + pemandu wisata",
         "Transfer & city tour Makkah, Madinah & Mesir",
         "Hotel ★★★★ /Setaraf + Meals",
-        "Kunjungan Piramida Giza, Sphinx,, Khan Khalili Museum Mesir",
+        "Kunjungan Piramida Giza, Sphinx, Khan Khalili Museum Mesir",
         "Souvenir Travel & tanda pengenal",
         "Air zamzam 5L per jamaah",
       ],
