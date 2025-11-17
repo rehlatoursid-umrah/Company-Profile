@@ -6,21 +6,21 @@ export default function PesantrenPartnershipSection() {
   const benefits = [
     {
       icon: BookOpen,
-      title: "Pusat Pendidikan & Dakwah",
+      title: "Jangkauan Pasar yang Luas",
       description:
-        "Pesantren menjadi tempat lahirnya ilmu, akhlak, dan dakwah yang membawa manfaat luas bagi masyarakat.",
+        "Sebagai penyedia layanan perjalanan umrah dan wisata halal, Rehlatours.id memiliki pasar yang terus berkembang dan stabil, membuka peluang kolaborasi bagi para mitra dalam memperluas cakupan bisnis.",
     },
     {
       icon: TrendingUp,
-      title: "Basis Jamaah yang Kuat",
+      title: "Brand Terpercaya",
       description:
-        "Dengan santri, wali santri, alumni, serta simpatisan, pesantren memiliki jaringan yang potensial untuk keberangkatan ibadah umroh.",
+        "Rehlatours.id memiliki rekam jejak pelayanan yang amanah, profesional, dan transparan sehingga memudahkan mitra dalam merekomendasikan paket perjalanan kepada calon jamaah.",
     },
     {
       icon: Heart,
-      title: "Tingkat Kepercayaan Tinggi",
+      title: "Dukungan & Materi Promosi",
       description:
-        "Pesantren dipandang sebagai lembaga yang amanah, sehingga jamaah merasa lebih tenang dengan rekomendasi pesantren.",
+        "Mitra mendapatkan dukungan penuh berupa materi pemasaran, konsultasi produk, hingga pendampingan strategi promosi agar lebih mudah dalam mendapatkan jamaah.",
     },
   ]
 
@@ -29,10 +29,10 @@ export default function PesantrenPartnershipSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            Kerjasama <span className="text-primary">Pesantren</span>
+            Kerjasama <span className="text-primary">Kemitraan</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Bersama Pesantren, Mewujudkan Perjalanan Suci yang Mudah & Aman
+            Bersama Mitra, Mewujudkan Perjalanan Suci yang Nyaman & Terpercaya
           </p>
         </div>
 
@@ -51,11 +51,10 @@ export default function PesantrenPartnershipSection() {
 
         {/* Commission Schema */}
         <Card className="p-8 mb-12 bg-background border-secondary/50">
-          <h3 className="text-2xl font-bold text-foreground mb-6">Skema Komisi untuk Pesantren</h3>
+          <h3 className="text-2xl font-bold text-foreground mb-6">Skema Komisi untuk Mitra</h3>
           <p className="text-muted-foreground mb-6 leading-relaxed">
-            Kami percaya, pesantren tidak hanya berperan sebagai pusat ilmu dan dakwah, tetapi juga sebagai penggerak
-            keberkahan bagi umat. Oleh karena itu, Rehlatours.id menyiapkan skema insentif yang sederhana, transparan,
-            dan saling menguntungkan.
+            Kami percaya bahwa kolaborasi bisnis harus dibangun atas dasar transparansi dan saling menguntungkan. 
+            Oleh karena itu, Rehlatours.id menyediakan skema komisi yang sederhana, jelas, dan mudah diterapkan oleh semua mitra.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -84,40 +83,39 @@ export default function PesantrenPartnershipSection() {
 
         {/* Partnership Support */}
         <Card className="p-8 bg-background">
-          <h3 className="text-2xl font-bold text-foreground mb-4">Dukungan Kami untuk Mitra Pesantren</h3>
+          <h3 className="text-2xl font-bold text-foreground mb-4">Dukungan Kami untuk Mitra Rehlatours.id</h3>
           <p className="text-muted-foreground mb-6">
-            Pesantren tidak berjalan sendiri. Rehlatours.id akan mendampingi setiap langkah dengan dukungan yang praktis
-            dan profesional:
+            Mitra tidak berjalan sendiri. Rehlatours.id akan mendampingi setiap langkah perjalanan bisnis Anda dengan dukungan yang praktis dan profesional:
+
           </p>
           <ul className="space-y-3 mb-8">
             <li className="flex gap-3 items-start">
               <span className="w-2 h-2 rounded-full bg-secondary flex-shrink-0 mt-2" />
               <span className="text-foreground">
-                Materi promosi siap pakai (poster, brosur digital, video, caption)
-              </span>
+                Materi promosi siap pakai (poster, brosur digital, video, caption)</span>
             </li>
             <li className="flex gap-3 items-start">
               <span className="w-2 h-2 rounded-full bg-secondary flex-shrink-0 mt-2" />
-              <span className="text-foreground">Training singkat bagi ustadz/ustadzah</span>
+              <span className="text-foreground">Training singkat mengenai produk & strategi pemasaran</span>
             </li>
             <li className="flex gap-3 items-start">
               <span className="w-2 h-2 rounded-full bg-secondary flex-shrink-0 mt-2" />
-              <span className="text-foreground">Grup WhatsApp khusus mitra untuk komunikasi langsung</span>
+              <span className="text-foreground">Grup WhatsApp khusus mitra untuk komunikasi langsung dan update program</span>
             </li>
             <li className="flex gap-3 items-start">
               <span className="w-2 h-2 rounded-full bg-secondary flex-shrink-0 mt-2" />
-              <span className="text-foreground">Admin support untuk membantu follow-up jamaah</span>
+              <span className="text-foreground">Admin support untuk membantu follow-up calon jamaah hingga closing</span>
             </li>
           </ul>
 
           <p className="text-muted-foreground mb-6">
-            Dengan dukungan ini, pesantren dapat tetap fokus pada dakwah dan pendidikan, sementara teknis perjalanan
-            ditangani oleh tim Rehlatours.id.
+            Dengan dukungan ini, mitra dapat tetap fokus pada pengembangan bisnis, 
+            sementara seluruh kebutuhan teknis dan operasional perjalanan ditangani oleh tim Rehlatours.id
           </p>
 
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground w-full md:w-auto">
-            <a href="https://wa.me/6281397321658" target="_blank" rel="noopener noreferrer">
-              Jadilah Mitra Pesantren Kami
+            <a href="https://wa.me/+6283197321658" target="_blank" rel="noopener noreferrer">
+              Jadilah Mitra Bisnis Kami
             </a>
           </Button>
         </Card>
