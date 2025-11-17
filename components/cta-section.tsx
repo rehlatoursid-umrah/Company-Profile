@@ -20,7 +20,7 @@ export default function CTASection() {
             variant="secondary"
             className="bg-secondary hover:bg-secondary/90 text-secondary-foreground"
           >
-            <a href="https://wa.me/6281397321658" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+6283197321658" target="_blank" rel="noopener noreferrer">
               Hubungi via WhatsApp
             </a>
           </Button>
