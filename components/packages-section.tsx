@@ -10,7 +10,7 @@ export default function PackagesSection() {
       price: "23.500.000",
       duration: "7 Malam 8 Hari (7N8D)",
       description: "Paket umrah dengan fasilitas standar dan harga terjangkau",
-      image: "/images/mekkah-1.png",
+      image: "/mekkah-1.png",
       features: [
         "Tiket pesawat PP & visa Saudi",
         "Mutawwif / mutawwifah, panduan & manasik online",
@@ -27,7 +27,7 @@ export default function PackagesSection() {
       price: "IDR 34.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Umrah dengan perjalanan ke tanah sejarah Islam - Mesir",
-      image: "/images/elegant-hotel-cairo.jpg",
+      image: "/elegant-hotel-cairo.jpg",
       features: [
         "Tiket pesawat PP (Jakarta – Cairo – Medinah – Jeddah – Jakarta)",
         "Visa Umrah & Visa Mesir",
@@ -46,7 +46,7 @@ export default function PackagesSection() {
       price: "33.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Perpaduan sempurna antara ibadah suci dan wisata sejarah Islam Ottoman",
-      image: "/images/turki.jpeg",
+      image: "/turki.jpeg",
       features: [
         "Tiket pesawat PP (Jakarta – Istanbul – Medinah – Jeddah – Jakarta)",
         "Visa Umrah",
