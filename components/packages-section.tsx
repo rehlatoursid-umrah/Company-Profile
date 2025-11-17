@@ -27,7 +27,7 @@ export default function PackagesSection() {
       price: "IDR 34.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Umrah dengan perjalanan ke tanah sejarah Islam - Mesir",
-      image: "/elegant-hotel-cairo.jpg",
+      image: "/cairo.jpg",
       features: [
         "Tiket pesawat PP (Jakarta – Cairo – Medinah – Jeddah – Jakarta)",
         "Visa Umrah & Visa Mesir",
