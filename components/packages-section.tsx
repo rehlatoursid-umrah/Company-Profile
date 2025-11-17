@@ -7,7 +7,7 @@ export default function PackagesSection() {
     {
       id: 1,
       name: "Umrah Reguler",
-      price: "23.500.000 (B2B Min 15 Orang)",
+      price: "23.500.000",
       duration: "7 Malam 8 Hari (7N8D)",
       description: "Paket umrah dengan fasilitas standar dan harga terjangkau",
       features: [
@@ -23,7 +23,7 @@ export default function PackagesSection() {
     {
       id: 2,
       name: "Umrah Plus Mesir",
-      price: "IDR 34.500.000 (B2B Min 15 Orang)",
+      price: "IDR 34.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Umrah dengan perjalanan ke tanah sejarah Islam - Mesir",
       features: [
@@ -41,7 +41,7 @@ export default function PackagesSection() {
     {
       id: 3,
       name: "Umrah Plus Turki",
-      price: "33.500.000 (B2B Min 15 Orang)",
+      price: "33.500.000",
       duration: "11 Malam 12 Hari (11N12D)",
       description: "Perpaduan sempurna antara ibadah suci dan wisata sejarah Islam Ottoman",
       features: [
@@ -62,7 +62,7 @@ export default function PackagesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            Paket <span className="text-primary">Umrah</span> Kami
+            Paket <span className="text-primary">Umrah</span> Kami B2B min. 12 Pax
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Pilih paket yang sesuai dengan kebutuhan dan impian spiritual Anda
