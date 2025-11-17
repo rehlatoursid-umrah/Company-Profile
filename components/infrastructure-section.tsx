@@ -6,34 +6,34 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export default function InfrastructureSection() {
   const vehicles = [
-    { type: "Sedan Camry/Setaraf", count: 2, image: "/camrypng" },
+    { type: "Sedan Camry/Setaraf", count: 2, image: "/camry.png" },
     { type: "Hyundai H1/Hiace", count: 4, image: "/h1.png" },
     { type: "Hyundai Staria", count: 2, image: "/staria.png" },
     { type: "SUV GMC", count: 4, image: "/gmc.png" },
     { type: "Toyota Coaster", count: 16, image: "/Coaster.png" },
-    { type: "Big Bus Mercy", count: 45, image: "/bis_.npg" },
+    { type: "Big Bus Mercy", count: 45, image: "/bis_.png" },
   ]
 
   const hotels = {
     makkah: [
-      { name: "Mahd Alresala Hotel", image: "/luxury-hotel-makkah.png" },
-      { name: "Grand Zowar Hotel", image: "/islamic-hotel-makkah.jpg" },
-      { name: "Emaar Elite Hotel", image: "/elegant-hotel-room.png" },
+      { name: "Mahd Alresala Hotel", image: "/mahd.png" },
+      { name: "Abraj Almisk", image: "/abraj.png" },
+      { name: "Emaar Elite Hotel", image: "/emaar.png" },
     ],
     madinah: [
-      { name: "Hilltown Airport Hotel", image: "/luxury-hotel-madinah.jpg" },
-      { name: "Al-Eiman Hotel", image: "/premium-hotel-madinah.jpg" },
-      { name: "Riyadh Palace Hotel", image: "/modern-hotel-madinah.jpg" },
+      { name: "Grand Zowar Hotel", image: "/grand zowar.png" },
+      { name: "Artal Taeba Hotel", image: "/artal.png" },
+      { name: "Sidra Alia Aldahabi", image: "/sidra.png" },
     ],
     turkey: [
-      { name: "Paradise Boutique Hotel", image: "/boutique-hotel-istanbul.jpg" },
-      { name: "Intercity Airport Hotel", image: "/modern-hotel-istanbul.jpg" },
-      { name: "Grand Istanbul Hotel", image: "/luxury-istanbul-hotel.jpg" },
+      { name: "Hilltown Airport Hotel", image: "/hilton.png" },
+      { name: "Intercity Airport Hotel", image: "/intercity.png" },
+      { name: "Meshk Airport hotel", image: "/meshk.png" },
     ],
     egypt: [
-      { name: "Indiana Hotel Cairo", image: "/elegant-hotel-cairo.jpg" },
-      { name: "Meshk Airport Hotel", image: "/luxury-hotel-cairo.jpg" },
-      { name: "Hotel New One Cairo", image: "/modern-hotel-cairo.jpg" },
+      { name: "Paradise Boutique Hotel", image: "/paradise.png" },
+      { name: "Indiana Hotel cairo", image: "/indiana.png" },
+      { name: "Hotel New One cairo", image: "/new one.png" },
     ],
   }
 
